@@ -14,19 +14,28 @@
 
 \LoadClass[a4paper]{article}
 
-\RequirePackage[localise, fontsize={11,13}]{xepersian}
+\RequirePackage[
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=orange,
+]{hyperref}
+\RequirePackage[localise]{xepersian}
 
 \usemintedstyle{one-dark}
+
+\setlength{\parindent}{0pt}
+\eqcommand{تارنما}{href}
 
 \date{\persiantoday}
 
 \renewcommand{\maketitle}{%
-  \centering
+  \begin{center}
   \textit{بسمه تعالی} \\
   {\large مهندسی اینترنت} \\[25pt]
   \hrule \vspace{0.3cm}
   {\huge تمرین \@title} \\
   \vspace{0.3cm} \hrule
+  \end{center}
 }
 
 \newcommand{\makefooter}{%
