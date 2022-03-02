@@ -3,6 +3,7 @@
 
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage{booktabs}
+\RequirePackage{enumerate}
 \RequirePackage{minted}
 \RequirePackage[useregional,calc,warn=false]{datetime2}
 
@@ -31,7 +32,8 @@
 \newcommand{\makefooter}{%
   \vfill
   \begin{center}
-  اسفند 1400
+    این سند برپایه بسته \متن‌لاتین{\زی‌پرشین} گونه \متن‌لاتین{\گونه‌زی‌پرشین} توسعه پیدا کرده است.
+    نگارش شده به تاریخ \@date
   \end{center}
 }
 
