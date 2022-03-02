@@ -32,6 +32,7 @@
 
 \setlength{\parindent}{0pt}
 \eqcommand{تارنما}{href}
+\eqcommand{پایان‌ساز}{makefooter}
 
 \date{\persiantoday}
 
