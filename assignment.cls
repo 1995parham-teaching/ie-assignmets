@@ -12,13 +12,20 @@
   \renewcommand*{\DTMDisplaydate}{\DTMdisplaydate}%
 }
 
-\LoadClass[a4paper]{article}
+\LoadClass[]{article}
 
 \RequirePackage[
   colorlinks=true,
   linkcolor=black,
   urlcolor=orange,
 ]{hyperref}
+\RequirePackage[
+   a4paper,
+   left=2.5cm,
+   right=2.5cm,
+   top=2.5cm,
+   bottom=2.5cm
+]{geometry}
 \RequirePackage[localise]{xepersian}
 
 \usemintedstyle{one-dark}
@@ -30,12 +37,14 @@
 
 \renewcommand{\maketitle}{%
   \begin{center}
-  \textit{بسمه تعالی} \\
-  {\large مهندسی اینترنت} \\[25pt]
-  \hrule \vspace{0.3cm}
-  {\huge تمرین \@title} \\
-  \vspace{0.3cm} \hrule
+  \textit{بسمه تعالی}
+  \vfill
+  {\huge تمرین \@title}\\[0.5cm]
+  {\large مهندسی اینترنت}\\[0.5cm]
+  {بهار ۱۴۰۱}
+  \vfill
   \end{center}
+  \newpage
 }
 
 \newcommand{\makefooter}{%
