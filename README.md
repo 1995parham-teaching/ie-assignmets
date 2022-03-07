@@ -1,2 +1,5 @@
-# ie-assignmets
-IE course assignments
+# IE Assignmets
+
+## Introduction
+
+IE course assignments in Latex.
