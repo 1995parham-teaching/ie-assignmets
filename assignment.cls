@@ -31,6 +31,8 @@
 \usemintedstyle{one-dark}
 
 \setlength{\parindent}{0pt}
+\renewcommand{\baselinestretch}{1.5}
+
 \eqcommand{تارنما}{href}
 \eqcommand{پایان‌ساز}{makefooter}
 
