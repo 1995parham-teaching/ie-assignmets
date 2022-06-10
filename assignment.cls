@@ -2,15 +2,8 @@
               [Parham Alvani's theme for IE assignments]
 
 \RequirePackage[dvipsnames]{xcolor}
-\RequirePackage{booktabs}
 \RequirePackage{enumerate}
 \RequirePackage{minted}
-\RequirePackage[useregional,calc,warn=false]{datetime2}
-
-\DTMnewdatestyle{mmyy}{%
-  \renewcommand*{\DTMdisplaydate}[4]{\DTMmonthname{##2} ##1}%
-  \renewcommand*{\DTMDisplaydate}{\DTMdisplaydate}%
-}
 
 \LoadClass[]{article}
 
@@ -37,6 +30,8 @@
 \eqcommand{پایان‌ساز}{makefooter}
 
 \date{\persiantoday}
+
+\renewcommand{\listingscaption}{قطعه‌کد}
 
 \renewcommand{\maketitle}{%
   \begin{center}
