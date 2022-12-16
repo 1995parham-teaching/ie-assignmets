@@ -39,7 +39,7 @@
   \vfill
   {\huge تمرین \@title}\\[0.5cm]
   {\large مهندسی اینترنت}\\[0.5cm]
-  {بهار ۱۴۰۱}
+  {پاییز ۱۴۰۱}
   \vfill
   \end{center}
   \newpage
