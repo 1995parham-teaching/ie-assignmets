@@ -14,3 +14,38 @@ First install [tectonic](https://github.com/tectonic-typesetting/tectonic) and t
 ```bash
 tectonic -X build
 ```
+
+To have all assignments build into the `build` directory.
+
+## Define a new assignment
+
+Use the following template:
+
+
+```latex
+\documentclass{../assignment}
+
+\عنوان{یک عنوان خوب}
+\begin{document}
+
+\عنوان‌ساز
+
+\فهرست‌مطالب
+
+
+\پایان‌ساز
+
+\end{document}
+```
+
+in the `src/<assingment-name>/main.tex`, then define a new output in `Tectonic.toml`:
+
+```toml
+[[output]]
+name = "<assingment-name>"
+type = "pdf"
+shell_escape = true
+preamble = ""
+index = "<assingment-name>/main.tex"
+postamble = ""
+```
